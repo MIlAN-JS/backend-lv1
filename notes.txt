@@ -15,7 +15,29 @@ complex backend 01 ( i will make it easy)
 
     // start of main note 
 
-1)  
+1) we use blank folder at the initial stage of writing code to maintain folder stucture.
+2) git doesnt track empty folder thats why we use gitkeep to track those folder
+3) we use .gitignore to keep those whiles which we dont need to push in git ( storing secret and sensitive files)
+4)we use gitigonre generator to generate ac to code
+5) we create .env file to keep secret data and .env.sample to push this demo data in github 
+6) we create index.js constants.js app.js(file is blank right now so i dont know why they are  created )
+7) we did "type": "module" in package.json to maintain consistency while importing files
+8) we installed nodemon for server restarting which is used while development and "dev" : "nodemon src/index.js"
+9) Dependencies vs  devDependencies
 
-            
 
+##### production grade folder structure ###
+
+inside src
+
+1) controllers -- to handle all the controllers
+2) db -- to write the code for database connection
+3) middlewares -- to write all the middlewares
+4) models -- to write all the models
+5) routes -- to write all the routes using express
+6) utils --- to write all the repeating functionality 
+
+
+// plugins used 
+   1) nodemon -- npm i -D nodemon
+   2) prettier -- (used for same ( increase in conflicts) ) npm i -D prettier and we also have to create file by our selve (.prettierrc)
