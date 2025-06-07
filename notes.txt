@@ -6,5 +6,16 @@ complex backend 01 ( i will make it easy)
     
 
 
+        handelling professionally files folders storing images
+
+    # we use  third party services to store images 
+     37
+     we store photo temporarily  in server
+    
+
+    // start of main note 
+
+1)  
+
             
 
