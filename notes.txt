@@ -40,4 +40,36 @@ inside src
 
 // plugins used 
    1) nodemon -- npm i -D nodemon
-   2) prettier -- (used for same ( increase in conflicts) ) npm i -D prettier and we also have to create file by our selve (.prettierrc)
+   2) prettier -- (used to work in team ( increase in conflicts) ) npm i -D prettier and we also have to create file by our selve (.prettierrc)
+   3) prettierignore -- we dont want to apply the prettier setting to our other files like env so we put those files into prettier ignore
+   4) mongoose
+   5)express
+   6) dot env
+
+
+
+
+video 2 ( production grade ) (Database connection (problems issues , how to handle , ways to connect database ))
+
+using mongodb atlas to store our data in cloud database
+    * we need 3 major things from mongodb atlas 
+    1) id pass 2) ip 3)url
+
+    * we dont need / at the end of DB-URI
+
+    * using 1st approach to connect with db in index file with async await and try catch for error handelling
+
+    # 2nd approach
+    
+
+
+IMPORTANT NOTES 
+        (DATABASE)
+  * wrap in try catch because error can be produced
+  * Database is always in another continent so use async await
+
+
+
+IMPORTANT CONCEPTS
+;(async ()=>{})() using iife
+* "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js" we wrote expreimental feature
